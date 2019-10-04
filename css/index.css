@@ -248,3 +248,22 @@ nav div {
     position: relative;
     right: 7%;
 }
+
+/**************STRETCH GOAL ANIMATION************/
+
+header a:hover{
+    animation-duration: 2s;
+    animation-name:rotation;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotation{
+    from{
+        transform:rotate(0deg)
+    }
+
+    to{
+        transform: rotate(360deg)
+    }
+
+}
