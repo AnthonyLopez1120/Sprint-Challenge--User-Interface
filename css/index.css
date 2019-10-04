@@ -145,18 +145,19 @@ footer nav a {
     text-decoration: none;
 }
 
-
+/*******************MY STYLES*********************/
 
 header nav{
     margin-bottom: 25px;
     display:flex;
     align-items: baseline;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 header nav a{
-    display:flex;
+
     text-decoration:none;
     color:black;
+
 }
 
 .jumbo-img{
@@ -243,3 +244,7 @@ button{
     margin:25px 0;
 }
 
+nav div {
+    position: relative;
+    right: 7%;
+}
