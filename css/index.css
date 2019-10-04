@@ -126,7 +126,7 @@ p {
     padding-right: 0;
 }
 
-footer {
+footer{
     width: 100%;
     background: black;
 }
@@ -143,4 +143,127 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*******************MY STYLES*********************/
+
+header nav{
+    margin-bottom: 25px;
+    display:flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+}
+header nav a{
+
+    text-decoration:none;
+    color:black;
+
+}
+
+.jumbo-img{
+    margin-bottom: 25px;
+}
+
+.box1{
+    background:teal !important;
+}
+
+.box2{
+    background:gold !important;
+}
+
+.box3{
+    background:cadetblue !important;
+}
+
+.box4{
+    background:coral !important;
+}
+
+.box5{
+    background:crimson !important;
+}
+
+.box6{
+    background:forestgreen !important;
+}
+
+.box7{
+    background:darkorchid !important;
+}
+
+.box8{
+    background:hotpink !important;
+}
+
+.box9{
+        background:indigo !important;
+}
+
+.box10{
+    background:dodgerblue !important;
+}
+
+
+/*****ABOUT PAGE STYLES*************/
+.aboutSection{
+    border-bottom: dotted black;
+    margin-bottom:25px;
+    padding-bottom:25px;
+}
+
+.about-mid-section{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.about-box{
+
+    border-bottom: dotted black;
+    width:45%;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    display:flex;
+    flex-direction: column;
+}
+
+.about-box, h2{
+    margin-top: 10px;
+}
+
+button{
+    border-radius: 5px;
+    border:solid black 1px;
+    margin-top: 15px;
+    width:25%;
+    height:15%;
+}
+
+.about-bottom-section{
+    margin:25px 0;
+}
+
+nav div {
+    position: relative;
+    right: 7%;
+}
+
+/**************STRETCH GOAL ANIMATION************/
+
+header a:hover{
+    animation-duration: 2s;
+    animation-name:rotation;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotation{
+    from{
+        transform:rotate(0deg)
+    }
+
+    to{
+        transform: rotate(360deg)
+    }
+
 }
