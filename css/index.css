@@ -148,7 +148,7 @@ footer nav a {
 
 
 header nav{
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     display:flex;
     align-items: baseline;
     justify-content: space-around;
@@ -159,4 +159,49 @@ header nav a{
     color:black;
 }
 
+.jumbo-img{
+    margin-bottom: 25px;
+}
 
+.box1{
+    background:teal !important;
+}
+
+.box2{
+    background:gold !important;
+}
+
+.box3{
+    background:cadetblue !important;
+}
+
+.box4{
+    background:coral !important;
+}
+
+.box5{
+    background:crimson !important;
+}
+
+.box6{
+    background:forestgreen !important;
+}
+
+.box7{
+    background:darkorchid !important;
+}
+
+.box8{
+    background:hotpink !important;
+}
+
+.box9{
+        background:indigo !important;
+}
+
+.box10{
+    background:dodgerblue !important;
+}
+
+
+/*****ABOUT PAGE STYLES*************/
